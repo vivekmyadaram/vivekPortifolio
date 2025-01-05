@@ -7,20 +7,14 @@ function Education({ education }: any) {
       <SectionTitle title="Education" />
       {education?.map((item: any, index: number) => (
         <div className="mt-2 mb-4" key={index}>
-          <h3 className="text-lg text-secondary font-semibold">
-            {item?.title}
-          </h3>
-          <h4 className="text-sm text-primary mt-1 font-semibold">
-            {item?.college}
-          </h4>
+          <h3 className="text-[14px] text-secondary">{item?.title}</h3>
+          <h4 className="text-sm text-[#444444] mt-1">{item?.college}</h4>
           {item?.grade && (
-            <p className="text-sm text-gray-600 mt-2 font-semibold">
-              {item?.grade}
-            </p>
+            <p className="text-sm mt-2 text-[#444444]">{item?.grade}</p>
           )}
           <div className="flex gap-2 items-center mt-2">
             <Calendar color="black" className="w-4" />
-            <span className="text-sm">{item?.period}</span>
+            <span className="text-sm text-[#444444]">{item?.period}</span>
           </div>
         </div>
       ))}

@@ -21,7 +21,7 @@ export default function Home() {
               className="rounded-full w-28 h-28 sm:w-32 sm:h-32 object-cover object-top mx-auto"
             />
             <h1 className="text-2xl sm:text-4xl font-semibold text-white mt-3">
-              Vinay Kumar
+              Vivek Myadaram
             </h1>
             <p className="text-white mt-2 text-xs sm:text-sm">
               Software Engineer | Web Enthusiast | Minimalist | Cook

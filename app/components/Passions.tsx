@@ -8,11 +8,9 @@ function Passions({ passions }: any) {
       {passions.map((item: any, index: number) => (
         <div className="flex gap-2 mt-2" key={index}>
           <div>
-            <Diamond color="rgb(149, 29, 196)" className="w-4 mt-1" />
+            <Diamond color="rgb(38, 37, 39)" className="w-3 mt-1" />
           </div>
-          <h4 className="text-md text-secondary font-semibold flex-1">
-            {item}
-          </h4>
+          <h4 className="text-xs text-[#333333]  flex-1">{item}</h4>
         </div>
       ))}
     </section>

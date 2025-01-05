@@ -89,7 +89,7 @@ const experience = [
     company: "Shreyan IT Solutions",
     roles: [
       {
-        title: "Frontend Developer",
+        title: "Junior Developer",
         period: "Nov 2020 - Aug 2023",
         location: "Hyderabad",
         work: [
@@ -120,7 +120,7 @@ const headerItems = [
     icon: Mail,
   },
   {
-    title: "7989347456",
+    title: "8125897982",
     icon: Phone,
   },
   {
@@ -135,12 +135,12 @@ const headerItems = [
   {
     title: "Website",
     icon: Web,
-    link: "vivekmyadaram.netlify.app",
+    link: "https://vivek.technologyexplorer.dev/",
   },
   {
     title: "Linkedin",
     icon: Linkedin,
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/in/vivekvishwakarma0719",
   },
 ];
 

@@ -8,12 +8,12 @@ function Experience({ experience }: any) {
       <div className="mt-2">
         {experience.map((item: any, index: number) => (
           <div key={index} className="mt-3">
-            <h2 className="text-primary text-lg font-semibold">
+            <h2 className="text-[#444444] text-[16px] font-semibold">
               {item.company}
             </h2>
             {item.roles.map((role: any, index: number) => (
               <div key={index}>
-                <h3 className="text-secondary text-md font-semibold">
+                <h3 className="text-[#444444] text-[14px] font-semibold">
                   {role.title}
                 </h3>
                 <div className="flex gap-4">
@@ -29,7 +29,7 @@ function Experience({ experience }: any) {
                 {role?.work && (
                   <ul className="mt-2 list-disc pl-5">
                     {role?.work?.map((item: any, index: number) => (
-                      <li key={index} className="text-xs mb-2">
+                      <li key={index} className="text-[12px] mb-1">
                         {item}
                       </li>
                     ))}
@@ -49,21 +49,21 @@ function Experience({ experience }: any) {
                           {project.title}
                         </h4>
                         {/* <h4 className="text-sm">{project.title}</h4> */}
-                        <p className="text-sm mt-2 font-semibold text-primary">
+                        <p className="text-sm mt-2 text-primary">
                           Description:
                         </p>
                         <p className="text-sm">{project.description}</p>
-                        <p className="text-sm mt-2 text-primary font-semibold">
+                        <p className="text-[14px] mt-2 text-primary">
                           Technologies:
                         </p>
                         <p className="text-sm">{project.tech}</p>
-                        <p className="text-primary text-sm font-semibold mt-2">
+                        <p className="text-primary text-[14px] mt-2">
                           Responsibilities:
                         </p>
                         <ul className="mt-2 list-disc pl-5">
                           {project?.responsibilities?.map(
                             (item: any, index: number) => (
-                              <li key={index} className="text-sm mb-2">
+                              <li key={index} className="text-[14px] mb-2">
                                 {item}
                               </li>
                             )

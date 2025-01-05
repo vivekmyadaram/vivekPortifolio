@@ -24,13 +24,13 @@ Skills.Elaborated = function Elaborated({ skills }: any) {
       <SectionTitle title="Technical Skills" />
       {skills?.map((item: any, index: number) => (
         <div key={index} className="mt-4">
-          <h4 className="text-sm text-primary font-semibold mb-2">
+          <h4 className="text-sm text-[#444444] font-semibold mb-2">
             {item.label}
           </h4>
           <div className="flex gap-3 flex-wrap">
             {item.items.map((item: any, index: number) => (
               <div
-                className="text-xs border rounded px-2 py-1 font-semibold"
+                className="text-xs text-[#333333] border rounded px-2 py-1"
                 key={index}
               >
                 {item}

@@ -16,6 +16,9 @@ module.exports = {
         primary: "rgb(149, 29, 196)",
         secondary: "rgb(80, 30, 88)",
       },
+      fontFamily: {
+        sans: ["Arial", "Calibri", "Helvetica", "sans-serif"],
+      },
     },
   },
   plugins: [],

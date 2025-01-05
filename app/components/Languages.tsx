@@ -14,9 +14,7 @@ function Languages({ languages }: any) {
           key={index}
         >
           <div>
-            <h4 className="text-md text-secondary font-semibold flex-1">
-              {item.title}
-            </h4>
+            <h4 className="text-[14px] text-[#444444] flex-1">{item.title}</h4>
             <h1 className="text-xs">{item.proficiency}</h1>
           </div>
           <div className="flex gap-1">
@@ -25,8 +23,8 @@ function Languages({ languages }: any) {
               .map((_, index) => (
                 <div
                   key={index}
-                  className={`w-4 h-4 rounded-full ${
-                    index < item.points ? "bg-primary" : "bg-gray-300"
+                  className={`w-3 h-3 rounded-full ${
+                    index < item.points ? "bg-[#444444]" : "bg-gray-300"
                   }`}
                 ></div>
               ))}
